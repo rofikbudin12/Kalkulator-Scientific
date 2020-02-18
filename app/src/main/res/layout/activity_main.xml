@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator Algoritma"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/Masukkan"
+        android:layout_below="@id/Judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkkan"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_below="@id/Masukkan"
+        android:text="SIN"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="280dp"
+        />
+
+   <Button
+       android:id="@+id/Button2"
+       android:layout_below="@id/Masukkan"
+       android:text="COS"
+       android:textSize="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="150dp"
+       android:layout_marginLeft="150dp"
+       />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_below="@id/Masukkan"
+        android:text="TAN"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginRight="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/Button4"
+        android:layout_below="@id/Button3"
+        android:text="SEC"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="280dp"
+        />
+
+    <Button
+        android:id="@+id/Button5"
+        android:layout_below="@id/Button2"
+        android:text="CSC"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="150dp"
+        />
+
+    <Button
+        android:id="@+id/Button6"
+        android:layout_below="@id/Button3"
+        android:text="COT"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginRight="5dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/Button7"
+        android:layout_below="@id/Button4"
+        android:text="LOG"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="150dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_below="@id/Button7"
+        android:text="0.0"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+
+
+</RelativeLayout>
